@@ -1,0 +1,41 @@
+# jQuery Content Slider
+
+A simply jQuery content slider, not yet finished. 
+
+## Script Completion Status
+
+The script is simple enough to use though and does work but I plan to polish it off when I get time and convert it to a plugin.  
+
+## Usage
+
+To use simply create a `section` with an id of 'slides' as shown below:
+
+`<section id="slides">`
+
+Within here create a `div` with a class of 'slides' and an id of 'slide*' where * is the number of the slide.  To create the controls make a `section` with an id of 'controls' and within here a list where each list item will become a clickable item.  Each clickable item needs an id of the format 'cont-*' where * is the number of the corresponding slide it will link to.  An example is below. 
+
+`
+<section id="slides">
+	
+	<div class="slide" id="slide1">
+		<p>Slide 1</p>
+	</div>
+	
+	<div class="slide" id="slide2">
+		<p>Slide 2</p>
+	</div>
+	
+	<div class="slide" id="slide3">
+		<p>Slide 3</p>
+	</div>
+	
+</section>
+
+<section id="controls">
+	<ul>
+		<li id="cont-1">1</li>
+		<li id="cont-2">2</li>
+		<li id="cont-3">3</li>
+	</ul>
+</section>
+`
