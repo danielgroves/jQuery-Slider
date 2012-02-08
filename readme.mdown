@@ -12,7 +12,7 @@ To use simply create a `section` with an id of 'slides' as shown below:
 
 `<section id="slides">`
 
-Within here create a `div` with a class of 'slides' and an id of 'slide*' where * is the number of the slide.  To create the controls make a `section` with an id of 'controls' and within here a list where each list item will become a clickable item.  Each clickable item needs an id of the format 'cont-*' where * is the number of the corresponding slide it will link to.  An example is below. 
+Within here create a `div` with a class of 'slides' and an id of 'slide+' where + is the number of the slide.  To create the controls make a `section` with an id of 'controls' and within here a list where each list item will become a clickable item.  Each clickable item needs an id of the format 'cont-+' where + is the number of the corresponding slide it will link to.  An example is below. 
 
 `
 <section id="slides">
